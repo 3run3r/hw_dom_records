@@ -1,0 +1,89 @@
+body {
+  background-color: #EFD9CE;
+  font-family: 'Open Sans', sans-serif;
+  margin-left: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #623B5A;
+}
+
+h4 {
+  font-size: 1.1em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.8em;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  list-style: none;
+  padding: 0;
+
+}
+
+li {
+  border: 2px #25283D solid;
+  border-radius: 25px;
+  /* padding: 10px; */
+  margin: 10px;
+  text-align: center;
+  /* display: flex; */
+  background-color: #CEA2AC;
+}
+
+button {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  background-color: #CEA2AC;
+  color: #25283D;
+  border-radius: 25px;
+  border-color: #25283D;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  outline: none;
+}
+
+button:hover{
+  background-color: #e8c3cb;
+}
+
+button:active{
+  transform: translateY(1px);
+}
+
+form {
+  color: #25283D;
+}
+
+label, input {
+  display: inline-block;
+  outline: none;
+  margin-left: 10px;
+}
+
+label {
+  width: 50px;
+}
+
+input {
+  border-radius: 15px;
+}
+
+.radio-button {
+  margin-top: 20px;
+}
+
+.album-owned {
+  background-color: #a1c98b;
+}
+
+/* label, input {
+  padding: 20px;
+} */
